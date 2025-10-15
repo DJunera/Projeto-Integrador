@@ -1,0 +1,203 @@
+/* ESTILO GERAL */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0e1b0;
+    color: #1b1b1b;
+    padding-top: 100px;
+}
+
+header {
+    background-color: #f6f2d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 25px;
+    font-weight: 1000;
+    transition: 0.2s;
+    text-align: center;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: #705c36;
+    text-decoration: underline;
+}
+
+section {
+    padding: 80px 20px 60px;
+    text-align: center;
+}
+
+/*INÍCIO*/
+.inicio {
+    background: url('img/SPL_Bushcraft_1100x800px-1100x800-c-default.png') center/cover no-repeat;
+    color: #fff;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio h1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 18px 25px;
+    border-radius: 10px;
+    font-size: 1.8em;
+}
+
+/*PRODUTOS*/
+.produtos {
+    background-color: #f6edcf;
+}
+
+.produtos h2 {
+    color: #4a3b16;
+}
+
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.produto {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.produto:hover {
+    transform: scale(1.03);
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*SEÇÃO SOBRE*/
+.sobre {
+    background: url('img/IMG_4795.jpg') center/cover no-repeat;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-container {
+    max-width: 900px;
+    color: #2e2e2e;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sobre h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #3c3c3c;
+}
+
+.sobre p {
+    margin-bottom: 20px;
+}
+
+.sobre .lista {
+    background-color: #e0d2b3;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.sobre .lista h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #1c1c1c;
+}
+
+.sobre .lista ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sobre .lista li {
+    padding: 6px 0;
+    font-weight: 500;
+}
+
+.frase-final {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*CONTATO*/
+
+.cont h1 {
+    text-align: center;
+    font-size: 60px;
+} 
+
+.contato {
+    white-space: pre-line;
+    background: url('img/camping.jpg') center/cover no-repeat;
+    color: #fff;
+    margin-top: 20px;
+    
+}
+
+.contato .conteudo {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+
+}
+
+.contato a {
+    color: #f0d47e;
+    text-decoration: none;
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
+
+/*RODAPÉ*/
+footer {
+    background-color: #e5c98b;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #4a3b16;
+}
