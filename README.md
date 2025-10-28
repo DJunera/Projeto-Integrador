@@ -46,6 +46,13 @@ scroll-behavior: smooth → faz a navegação entre seções acontecer de forma 
 
 Esses recursos foram escolhidos para garantir um site bonito, intuitivo e funcional, com foco na experiência do usuário.
 
+🔹 Script (Java Script)
+
+O JavaScript deixou o site do Clube da Sobrevivência mais interativo e envolvente, permitindo que botões, textos e imagens reagissem às ações do visitante. A interação mais interessante foi a saudação personalizada, que dá boas-vindas ao usuário e o faz se sentir parte da comunidade. Aprendi que, com o uso da DOM, posso modificar elementos do site em tempo real como cores, mensagens e efeitos visuais, tornando a experiência mais dinâmica e atrativa para quem acessa.
+
+Além disso, foram implementadas funcionalidades que melhoram a navegação, como o menu fixo ao rolar a página e a rolagem suave entre seções. O menu permanece visível no topo mesmo durante a rolagem, facilitando o acesso às áreas principais do site. Já a rolagem suave proporciona uma transição mais fluida ao clicar nos links de navegação, contribuindo para uma experiência mais moderna e agradável. Essas melhorias demonstram como o JavaScript pode transformar um site estático em uma plataforma interativa e acolhedora.
+
+
 🔹 Versionamento e Publicação
 
 O Git foi utilizado para controlar as versões do projeto, permitindo salvar alterações e manter histórico do desenvolvimento.
@@ -53,7 +60,7 @@ Após isso, o repositório foi criado no GitHub, e o site foi publicado por meio
 
 Conclusão
 
-O desenvolvimento do site Clube da Sobrevivência permitiu aplicar conhecimentos práticos de HTML, CSS e Git, resultando em um projeto funcional e visualmente atraente.
+O desenvolvimento do site Clube da Sobrevivência permitiu aplicar conhecimentos práticos de HTML, CSS, Java Script e Git, resultando em um projeto funcional e visualmente atraente.
 O uso das tags semânticas, da estilização moderna e da publicação via GitHub Pages demonstrou a importância de unir organização, estética e tecnologia na criação de páginas web.
 
 O projeto cumpre seu objetivo de divulgar produtos e informações sobre aventura e sobrevivência de forma clara, organizada e profissional.
