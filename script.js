@@ -14,3 +14,11 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
   });
 });
+
+let indice = 0;
+function mudarImagem(direcao) {
+    const imagens = document.querySelectorAll('.carrossel img');
+    imagens[indice].classList.remove('ativo');
+    indice = (indice + direcao + imagens.length) % imagens.length;
+    imagens[indice].classList.add('ativo');
+}
