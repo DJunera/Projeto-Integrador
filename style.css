@@ -196,10 +196,10 @@ section {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 40px;
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 300px;
     margin: auto;
     text-align: left;
-    font-size: 18px;
+    font-size: 13px;
 }
 
 .contato a {
@@ -328,3 +328,109 @@ footer {
 .seta:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }				
+
+/* ======== GRID AJUSTADO PARA CELULAR ======== */
+@media (max-width: 768px) {
+    /* CABEÇALHO / HEADER */
+    header {
+        /* Remove o layout centralizado para empilhar itens */
+        flex-direction: column; /* Coloca os itens um abaixo do outro */
+        padding: 10px 10px;    /* Reduz o padding horizontal */
+        height: auto;          /* Permite que o header se expanda verticalmente */
+    }
+
+    header img {
+        height: 50px; /* Mantém um bom tamanho para o logo */
+        margin-bottom: 5px; /* Adiciona um pequeno espaçamento abaixo do logo */
+    }
+
+    /* NAVEGAÇÃO / NAV */
+    nav {
+        /* Garante que o container da navegação ocupe a largura total */
+        width: 100%;
+        text-align: center; /* Centraliza os links */
+    }
+
+    nav a {
+        /* Reduz o tamanho da fonte e o espaçamento para caber na tela */
+        font-size: 16px; 
+        margin: 0 8px; /* Reduz o espaçamento entre os links */
+        display: inline-block; /* Garante que os links respeitem a margem */
+    }
+}
+/* ESTILOS APLICADOS EM TELAS MENORES QUE 768px (Mobile e a maioria dos Tablets) */
+@media (max-width: 768px) {
+    
+    /* CABEÇALHO / HEADER */
+    header {
+        /* Altera de horizontal para vertical (logo no topo, nav abaixo) */
+        flex-direction: column; 
+        padding: 10px 10px; /* Reduz o padding para ganhar espaço */
+        height: auto; 
+    }
+
+    header img {
+        height: 50px; 
+        margin-bottom: 5px; 
+    }
+    
+    /* BODY */
+    body {
+        /* Ajusta o padding-top para a altura do novo header empilhado */
+        /* Isso é crucial para que o conteúdo não fique escondido */
+        padding-top: 130px; 
+    }
+
+    /* NAVEGAÇÃO / NAV */
+    nav {
+        width: 100%;
+        text-align: center;
+        /* Usa flexbox para distribuir os links horizontalmente de forma uniforme */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* Permite quebrar linha se a tela for muito pequena */
+    }
+
+    nav a {
+        /* Reduz a fonte e a margem para caber na largura de 375px */
+        font-size: 16px; 
+        margin: 0 8px;
+        padding: 5px 0; /* Adiciona um pequeno padding vertical para toque */
+    }
+}
+
+/* ESTILOS APLICADOS EM TELAS MAIORES QUE 1280px (Desktop) */
+@media (min-width: 1280px) {
+    
+    /* CABEÇALHO / HEADER */
+    header {
+        /* Volta ao layout original: itens lado a lado e centralizados */
+        flex-direction: row; 
+        justify-content: center;
+        padding: 10px 50px; 
+        height: 80px; /* Ou o valor que você tinha como padrão */
+    }
+
+    header img {
+        height: 60px; /* Volta ao tamanho original da logo */
+        margin-bottom: 0; 
+    }
+
+    /* BODY */
+    body {
+        /* Volta ao padding-top original */
+        padding-top: 100px;
+    }
+
+    /* NAVEGAÇÃO / NAV */
+    nav {
+        /* Garante que o nav não ocupe 100% da largura, permitindo alinhamento horizontal */
+        width: auto;
+    }
+
+    nav a {
+        /* Volta ao tamanho original e margens */
+        font-size: 22px; 
+        margin: 0 25px;
+    }
+}
