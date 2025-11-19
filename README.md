@@ -64,3 +64,135 @@ O desenvolvimento do site Clube da Sobrevivência permitiu aplicar conhecimentos
 O uso das tags semânticas, da estilização moderna e da publicação via GitHub Pages demonstrou a importância de unir organização, estética e tecnologia na criação de páginas web.
 
 O projeto cumpre seu objetivo de divulgar produtos e informações sobre aventura e sobrevivência de forma clara, organizada e profissional.
+
+1. Revisão e Diagnóstico do Projeto Atual 
+O que já estava funcionando bem?
+O menu fixo, o scroll suave entre seções e o carrossel já operavam corretamente. Essas funções tornavam a navegação mais fluida e foram mantidas sem alterações significativas por já estarem funcionando bem.
+Quais elementos HTML se repetiam em várias páginas?
+O header, o nav e o footer eram idênticos em todas as páginas, além dos cards de produtos repetirem a mesma estrutura. Isso indicava necessidade de modularização para evitar repetição de código.
+Onde o layout quebrava ou ficava estranho?
+O grid de produtos apresentava desalinhamentos em telas pequenas (celulares). Algumas imagens ultrapassavam a largura e o carrossel tinha dimensões fixas, causando cortes em mobile.
+Quais melhorias fariam diferença real para o usuário?
+•	Corrigir a responsividade do grid.
+•	Adicionar melhor acessibilidade (alt text, foco visível, skip link).
+•	Modularizar o header e footer para facilitar manutenção.
+•	Ajustar imagens fluidas para não distorcer no mobile.
+Essas melhorias foram priorizadas e implementadas.
+________________________________________
+2. Modularização do Código HTML 
+2.1. Componentes reutilizáveis identificados
+Durante a análise, vimos que vários elementos se repetiam, principalmente:
+•	Header
+•	Nav
+•	Footer
+•	Estruturas de cards de produtos
+Essas partes foram separadas para melhorar organização e facilitar manutenção.
+2.2. Estrutura criada
+Foi criada a pasta /componentes, contendo os arquivos:
+•	header.html
+•	footer.html
+Esses componentes agora são carregados automaticamente em todas as páginas.
+A estrutura final do projeto foi reorganizada conforme o modelo proposto: /css, /js, /componentes, /img.
+2.3. Implementação da reutilização
+A abordagem escolhida foi carregar componentes com JavaScript usando fetch(), pois:
+•	evita repetição de código
+•	facilita edição
+•	não exige servidor
+•	tem melhor performance visual que iframes
+A função foi corrigida para usar async/await corretamente, garantindo carregamento sem erros.
+Todos os componentes foram testados e funcionam em todas as páginas.
+________________________________________
+3. Aprimoramento de Interatividade 
+O que foi revisado e melhorado?
+•	O carrossel foi revisado e organizado para garantir que as imagens troquem corretamente.
+•	A rolagem suave foi mantida e testada para evitar travamentos.
+•	O JavaScript foi separado em arquivos distintos, deixando o código mais limpo.
+Melhorias consideradas:
+Foi planejada a implementação de um menu hambúrguer e botão de “voltar ao topo”, mas ainda serão adicionados em implementações futuras.
+Benefícios para o usuário:
+A navegação ficou mais fluida, o uso mais intuitivo e o código mais fácil de manter e atualizar.
+________________________________________
+4. Consolidação de Acessibilidade 
+4.1. Checklist aplicado
+ Foram usadas tags semânticas (header, nav, section, footer).
+Hierarquia de títulos corrigida.
+Todas as imagens receberam alt.
+Imagens decorativas ganharam alt vazio.
+Os botões e links ficaram acessíveis via teclado.
+Criado um skip link para ir direto ao conteúdo.
+Contraste de textos revisado.
+Tamanho da fonte ajustado para boa leitura.
+4.2. Testes realizados
+•	Navegação completa só com teclado.
+•	Análise de acessibilidade via Lighthouse no DevTools.
+•	Correção dos pontos de contraste e semântica indicados pela ferramenta.
+Resultado: o site ficou mais inclusivo e fácil de usar para todos os perfis de usuário.
+________________________________________
+5. Consolidação de Responsividade 
+5.1. Testes em diferentes telas
+O site foi testado nos tamanhos:
+•	375px (mobile)
+•	768px (tablet)
+•	1280px e 1920px (desktop)
+Problemas encontrados:
+•	Grid desalinhado no celular
+•	Carrossel muito grande no mobile
+•	Imagens distorcidas ou estourando
+5.2. Ajustes aplicados
+•	Correção completa do grid no mobile, mantendo 1 card por linha.
+•	Imagens agora são fluidas (max-width: 100%).
+•	Breakpoints reorganizados.
+•	Layout ajustado para manter espaçamentos adequados.
+Agora o site funciona bem em qualquer dispositivo.
+________________________________________
+ 6. Exploração de Integrações Externas
+A integração escolhida foi o botão de WhatsApp, permitindo que o cliente entre em contato direto.
+✔ Por que essa integração foi escolhida?
+•	É útil para pequenos negócios.
+•	Facilita atendimento e vendas.
+•	Funciona sem JavaScript ou backend.
+•	Funciona em qualquer celular.
+________________________________________
+7. Organização Final e Documentação 
+7.1. Estrutura de arquivos reorganizada
+A estrutura completa foi revisada e agora segue padrões profissionais:
+•	Pastas separadas para CSS, JS, componentes, imagens e documentação.
+•	Arquivos renomeados e organizados.
+•	Componentes HTML isolados e carregados dinamicamente.
+7.2. Comentários adicionados
+Apenas comentários essenciais foram incluídos para:
+•	explicar funções
+•	documentar componentes
+•	orientar manutenção futura
+Sem excesso de comentários desnecessários.
+7.3. Atualização completa do README
+O README agora inclui:
+•	descrição do projeto
+•	funcionalidades
+•	modularização
+•	acessibilidade
+•	responsividade
+•	integrações
+•	estrutura do projeto
+•	autoavaliação
+•	próximos passos
+________________________________________
+8. Autoavaliação com Rubrica 
+
+• Professora, nós não tivemos acesso à rubrica de avaliação devido a um erro no anexo. Como não conhecíamos os critérios de avaliação, não sabíamos como realizar a auto-avaliação. Espero que entenda.
+
+8.1. Avaliação dos critérios
+•	Interatividade: Intermediário
+Carrossel, scroll suave e sticky header funcionando.
+•	Acessibilidade: Intermediário
+Adicionados alt text, skip link, foco visível e uso de HTML semântico.
+•	Responsividade: Avançado
+Testado em quatro tamanhos de tela e totalmente corrigido.
+•	Modularidade: Avançado
+Componentes carregados dinamicamente via fetch(), reduzindo redundância.
+•	Design: Intermediário
+Layout limpo e funcional, mas ainda com espaço para refinamento visual.
+8.2. Plano de Melhoria
+•	Adicionar indicadores no carrossel.
+•	Modularizar mais elementos (como cards de produto).
+•	Otimizar imagens em formatos mais leves.
