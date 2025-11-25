@@ -1,11 +1,43 @@
-🏕️ Clube da Sobrevivência
+Projeto Integrador - 🏕️ Clube da Sobrevivência
 
-Integrantes: Marcos Antonio e Davi Tavares
+Integrantes: Marco Antonio e Davi Tavares
+
+Marco Antônio: Figma, HTML, CSS, Testes e Documentação.
+Davi Tavares: Figma, HTML, CSS e JavaScript.
+
+Estruturas de Pastas:
+
+img: Pasta utilizada para armazenar todas as imagens utilizadas no projeto.
+Produtos:Pasta dedicada para salvar os produtos ligados ao site.
+
+Produtos: A listagem de todas as paginas de produtos ofertados pelo site.
+
+Componentes: Pasta responsavel pela modulariazaçao do site.
+
+Componentes: Pasta contendo a modularização por parte do JavaScript.
+
+Projeto integrador parte 1:
+Foi criado o prototipo do projeto junto no figma, logo apos, criamos o esqueleto do HTML e foi implementado o CSS, durante as etapas do projeto fomos apresentados ao JavaScript para implementação na tríade HTML,CSS e JavaScript.
+
+Projeto integrador parte 2:
+Ajustes finais do projeto, como a modularização, testes, revisoes, com isso aperfeiçoando o projeto, essa etapa foi essencial para o aprimoramento da nossa pratica e design, tambem um tanto desafiador.
+
+Projeto integrador parte 3:
+
+Espaço reservado para o GitHubPages:
 
 Introdução
 
 O site Clube da Sobrevivência foi desenvolvido com o objetivo de apresentar produtos e informações voltadas para o público aventureiro, como campistas e praticantes de atividades ao ar livre.
 O projeto foi criado utilizando HTML5 e CSS3, tecnologias essenciais para construção de páginas web modernas. Além disso, foi utilizado o GitHub Pages para a publicação do site, permitindo acesso público e gratuito.
+
+Prototipo Figma:
+
+https://www.figma.com/design/VkMRGxPffRNRPrxwd12JmZ/clube-da-sobrevivencia?node-id=0-1&p=f&t=Q8CLuq5wbUpzOiqI-0
+
+tecnologias utilizadas: HTML5, CSS3, JavaScript
+
+Estrututras de pastas:
 
 Desenvolvimento
 
