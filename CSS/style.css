@@ -67,7 +67,7 @@ section {
    SEÇÃO INÍCIO
 ============================ */
 .inicio {
-    background: url('img/SPL_Bushcraft_1100x800px-1100x800-c-default.png') center/cover no-repeat;
+    background: url('../img/SPL_Bushcraft_1100x800px-1100x800-c-default.png') center/cover no-repeat;
     color: #fff;
     height: calc(100vh - 100px);
     display: flex;
