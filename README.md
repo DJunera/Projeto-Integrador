@@ -26,6 +26,8 @@ Projeto integrador parte 3:
 
 Espaço reservado para o GitHubPages:
 
+https://djunera.github.io/Projeto-Integrador/
+
 Introdução
 
 O site Clube da Sobrevivência foi desenvolvido com o objetivo de apresentar produtos e informações voltadas para o público aventureiro, como campistas e praticantes de atividades ao ar livre.
@@ -36,6 +38,18 @@ Prototipo Figma:
 https://www.figma.com/design/VkMRGxPffRNRPrxwd12JmZ/clube-da-sobrevivencia?node-id=0-1&p=f&t=Q8CLuq5wbUpzOiqI-0
 
 tecnologias utilizadas: HTML5, CSS3, JavaScript
+
+reflexão individuais e da dupla:
+
+Marco Antonio:
+Durante o projeto, eu percebi que trabalhar em dupla é menos complicado do que eu pensava, a funções do Github facilitam muito as atualizações do código além de programar em HTML não ser tão complicado, mais uma questão de prática.
+Davi Tavares:
+Durante a realização do projeto, descobri que a dinâmica em dupla funciona de forma bem mais leve do que eu esperava. As funcionalidades do GitHub ajudaram bastante no controle das versões e na colaboração. Além disso, percebi que trabalhar com HTML não é tão complexo com tempo e repetição, acaba se tornando algo natural.
+
+dupla:
+Durante o projeto, nós percebemos que trabalhar em dupla foi bem mais simples do que imaginávamos. As ferramentas do GitHub ajudaram muito na organização e na atualização do código, deixando o processo mais rápido e colaborativo. Também notamos que programar em HTML não é tão complicado com prática e paciência, tudo vai ficando mais fácil e natural para nós dois.
+
+
 
 Estrututras de pastas:
 
