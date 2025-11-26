@@ -29,7 +29,7 @@ Espaço reservado para o GitHubPages:
 Introdução
 
 O site Clube da Sobrevivência foi desenvolvido com o objetivo de apresentar produtos e informações voltadas para o público aventureiro, como campistas e praticantes de atividades ao ar livre.
-O projeto foi criado utilizando HTML5 e CSS3, tecnologias essenciais para construção de páginas web modernas. Além disso, foi utilizado o GitHub Pages para a publicação do site, permitindo acesso público e gratuito.
+O projeto foi criado utilizando HTML5, CSS3 e JavaScript, tecnologias essenciais para construção de páginas web modernas. Além disso, foi utilizado o GitHub Pages para a publicação do site, permitindo acesso público e gratuito.
 
 Prototipo Figma:
 
